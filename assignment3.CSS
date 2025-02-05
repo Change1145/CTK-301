@@ -1,0 +1,61 @@
+a{
+    color:red;
+    text-decoration: none;
+}
+
+a:visited {
+    color:green;
+}
+
+a:hover {
+    color:yellow;
+    text-decoration: underline;
+}
+
+#turnblue {
+    color: blue;
+}
+
+#redblue {
+    color:red;
+    background:blue;
+}
+
+h1 {
+    color: blue;
+    background:green ;
+}
+
+h2 {
+    color:aquamarine;
+    background: red;
+}
+
+p {
+    color:bisque;
+    background: black
+}
+
+h3 {
+    color: azure;
+    background:darkmagenta;
+}
+
+h4 {
+    color: lightcoral;
+    background: darkolivegreen;
+}
+
+h5 {
+    color:lightsalmon;
+    background: darkred;
+}
+
+#turnorange{
+    background: orange;
+}
+
+#turnpurple{
+    color: blueviolet;
+    background: darkolivegreen;
+}
