@@ -1,0 +1,91 @@
+
+
+img{
+    border: 10px;
+    padding: 10px;
+    background-color: yellow;
+}
+
+.customtext {
+
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    background-image:url(Panda2.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.justified-text {
+    text-align: justify;
+
+}
+a{
+    color:red;
+    text-decoration: none;
+}
+
+a:visited {
+    color:green;
+}
+
+a:hover {
+    color:yellow;
+    text-decoration: underline;
+}
+
+#turnblue {
+    color: blue;
+}
+
+#redblue {
+    color:red;
+    background:blue;
+}
+
+h1 {
+    
+    font-weight: normal;
+    font-style: italic;
+    color: orange;
+    
+}
+
+h2 {
+    font-weight: normal;
+    font-style: italic;
+    color: orange;
+}
+
+p {
+    color:bisque;
+    background: black
+}
+
+h3 {
+    font-weight: normal;
+    font-style: italic;
+    color: orange;
+}
+
+h4 {
+    font-weight: normal;
+    font-style: italic;
+    color: orange;
+}
+
+h5 {
+    font-weight: normal;
+    font-style: italic;
+    color: orange;
+}
+
+#turnorange{
+    background: orange;
+}
+
+#turnpurple{
+    color: blueviolet;
+    background: darkolivegreen;
+}
