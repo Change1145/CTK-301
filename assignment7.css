@@ -130,6 +130,12 @@ a {
   font-weight: bold;
 }
 
+a:hover{
+  color:blue;
+  text-decoration: none;
+
+}
+
 #red{
   color: red;
 }
