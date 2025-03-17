@@ -1,0 +1,158 @@
+.borderbottom{
+    border-bottom: 2px solid #136ef6;
+    padding-bottom: 5px;
+  }
+header{
+  grid-column: span 12;
+}
+nav{
+    grid-column: span 12;
+  }
+
+  h1 {
+    
+    font-family: Arial, Helvetica, sans-serif ;
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    color: lightblue;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  h1 a{
+    color: lightblue;
+    text-decoration: none;
+  }
+
+  h2{
+color:#136ef6;
+font-family: Arial, Helvetica, sans-serif;
+}
+  
+  
+  nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    padding:0;
+    margin:0;
+  }
+  nav li {
+    border: 1px solid;
+    width: 300px;
+    background-color:blue;
+  }
+  nav li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    display:block;
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  }
+  
+  nav li a:hover{
+    background-color: blue;
+  }
+  
+  .nav-links a:hover{
+    background-color: blue;
+    color:white;
+    text-decoration: none;
+  }
+  .floatimage {
+    float: right;
+    border: 2px solid darkblue;
+    padding-right: 3px;
+    padding-left:3px;
+    padding-top:3px;
+    padding-bottom:3px;
+   }  
+
+
+
+  .left {
+  grid-column: span 3;
+
+    background: white;
+
+    padding:20px;
+
+    gap: 20px;
+
+  }
+
+  .center{
+    grid-column: span 1;
+    background: white;
+    padding:20px;
+  }
+
+.right {
+
+  grid-column: span 5;
+
+  background: white;
+
+  padding: 20px;
+
+}
+
+
+.right-img {
+
+  float: top;
+  margin-left:15px;
+  width:200px;
+  border: 2px solid blue;
+
+}
+
+.left-img {
+
+  float: top;
+  margin-left:15px;
+  width:200px;
+  border: 2px solid blue;
+
+}
+
+.center-img {
+  float: top;
+  margin-left: 15px;
+  width:200px;
+  border: 2px solid blue;
+
+}
+
+
+footer{
+  background: red;
+  grid-column: span 12;
+  box-sizing: border-box;
+  border: 2px solid blue ;
+}
+
+#wrapper {
+  margin: 6em auto;
+  padding: 0;
+  width: 840px;
+  border: 4px solid blue;
+  background-color: #ffffff;
+  display:grid;
+  grid-template-columns: repeat(12,1fr);
+}
+
+
+
+a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#red{
+  color: red;
+}
+
+
