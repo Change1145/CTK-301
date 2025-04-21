@@ -20,20 +20,36 @@
             <source src="TestBeat.mp3" type="audio/mpeg">
           </audio>
         <div id="wrapper">
-           <header> <h1> My Portfolio</h1></header>
+          <header> <h1 class="typewriter-text"></h1></header>
+
             <nav>
                 <ul>
-                    <li><a heref="#">My Story</a></li>
-                    <li><a heref="#">My Projects</a></li>
-                    <li><a heref="#">My Information</a></li>
+                    <li><a heref="#">My Story<img src="IMG_3758.jpeg" class="left-img"></a></li>
+                    <li><a heref="#">My Projects<img src="IMG_7481.jpeg" class="right-img"></a></li>
+                    <li><a heref="#">My Information <img src="IMG_5842.jpeg" class="center-img"></a></li>
 
                 </ul>
 
-                <img src="IMG_3758.jpeg" class="left-img">
-                <img src="IMG_7481.jpeg" class="right-img">
-                <img src="IMG_5842.jpeg" class="center-img">
+                
+              
 
             </nav>
+            <script>
+                const text = "My Portfolio";
+                const speed = 80;
+                let i = 0;
+              
+                function typeWriter() {
+                  if (i < text.length) {
+                    document.querySelector(".typewriter-text").innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                  }
+                }
+              
+                window.onload = typeWriter;
+              </script>
+              
 <footer>
 <a href="https://illinoisstate.edu/" target="blank">
         <img src="wordmark_isu.png"> 
