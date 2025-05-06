@@ -82,21 +82,21 @@ footer{
       text-decoration: none;
     }
     
-  .left img {
-  
-      width:100%;
+  .left-img {
+  grid-column: span 7;
+      width:95%;
+ 
       border: 2px solid ;
+      height:100%
+    
   
     }
-    img{
-      grid-column: span 7;
-      width:95%
-    }
+    
     
     .center-img {
       
       
-      width:100%;
+      width:300px;
       border: 2px solid;
     
     }

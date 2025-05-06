@@ -23,7 +23,7 @@ font-size: 100px;
   display:grid;
   grid-template-columns: repeat(12,1fr);
   background: linear-gradient(#3741a9,#040518,#0a7385) ;
-
+position: relative;
 }
 
 a {
@@ -137,4 +137,15 @@ nav ul{
   
   }
 
-  
+  #Speech{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    right: -270px;
+background-color: white;
+border-radius: 25px;
+text-align: center;
+padding-top: 100px;
+
+  }
